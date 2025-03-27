@@ -70,21 +70,27 @@ php artisan migrate
 N.B: Make sure to install all dependencies using composer install before proceeding
 
 ## Usage
-1. Serve the API Locally
+### 1. Serve the API Locally
    ```bash
    php artisan serve
    ```
    This will start the server at http://127.0.0.1:8000.
 
-2. Test the Endpoints.
+### 2. Test the Endpoints.
    You can test the endpoints on your browser or using postman.
    
    Get Students:
+   
    Endpoint: /api/students
+   
    Method: GET
+   
    Response: A JSON array of students, each containing their name and program.
 
    Get Subjects:
+   
    Endpoint: /api/subjects
+   
    Method: GET
+   
    Response: A JSON array of subjects for each academic year.
