@@ -67,6 +67,7 @@ php artisan migrate
 1. Laravel 9.x: The PHP framework used to develop the API.
 2. Composer: Dependency management tool for PHP.
 3. MySQL: Database management system.
+   
 N.B: Make sure to install all dependencies using composer install before proceeding
 
 ## Usage
@@ -79,7 +80,7 @@ N.B: Make sure to install all dependencies using composer install before proceed
 ### 2. Test the Endpoints.
    You can test the endpoints on your browser or using postman.
    
-   Get Students:
+  1. Get Students:
    
    Endpoint: /api/students
    
@@ -87,7 +88,7 @@ N.B: Make sure to install all dependencies using composer install before proceed
    
    Response: A JSON array of students, each containing their name and program.
 
-   Get Subjects:
+   2. Get Subjects:
    
    Endpoint: /api/subjects
    
